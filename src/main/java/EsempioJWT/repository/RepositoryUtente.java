@@ -1,0 +1,11 @@
+package EsempioJWT.repository;
+
+import EsempioJWT.domain.Utente;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+//NOTA: abbiamo scelto come nome Utente per evitare possano esserci ambiguità con altre classi standard User
+@Repository
+public interface RepositoryUtente extends JpaRepository<Utente, Long> {
+    Utente findByUsername(String username);
+}

@@ -1,0 +1,2 @@
+Progetto di riferimento: https://www.youtube.com/watch?v=mYKf4pufQWA
+Github: https://github.com/getarrays/userservice
